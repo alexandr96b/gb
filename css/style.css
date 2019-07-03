@@ -1660,7 +1660,7 @@ h1{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;    
-	background: #ffffff url(../images/select-arrow2.png);
+	background: #fafcfe url(../images/select-arrow2.png);
 	background-position: right 15px center;
 	background-repeat: no-repeat;
 	-webkit-appearance: none;

@@ -1,6 +1,17 @@
 $(document).ready(function () {
 
 
+$('.b-main-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: true,
+  adaptiveHeight: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 2000, 
+  dots: false
+});
+
 $('.b-insurance-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -36,7 +47,7 @@ $('.b-finance-slider').slick({
   {
     breakpoint: 1200,
     settings: {
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1
     }
   },

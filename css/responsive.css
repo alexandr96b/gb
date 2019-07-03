@@ -58,6 +58,19 @@
 	.b-footer-logo{
 		margin: 0 20px 0 0;
 	}
+	.b-main-left__wrap{
+		padding: 0;
+	}
+	.b-main-image{
+		width: 196px;
+		margin: 145px 0 0 0;
+	}
+	.b-about-item__video{
+		width: 50%;
+	}
+	.b-products-content .b-insurance-block{
+		margin: 0 15px 0 0;
+	}
 }	
 
 
@@ -214,6 +227,47 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.b-main-image{
+		display: none;
+	}
+	.b-main-text{
+		padding: 0;
+	}
+	.b-criteria{
+		padding: 0;
+	}
+	.b-about-item{
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+	.b-about-item > div{
+		width: 100%;
+	}
+	.b-about-item__img{
+		margin: 10px 0;
+	}
+	.b-about-item__img img{
+		margin: 0 auto 0;
+	}
+	.b-about-item__video{
+		margin: 0 auto 15px
+	}
+	.b-contacts-item{
+		padding: 0 10px;
+	}
+	.b-contacts-content{
+		margin: 0 -10px;
+	}
+	.b-contacts-item__col{
+		width: 50%;
+	}
+	.b-news-content .b-news-block{
+		display: block;
+	}
+	.b-news-content .b-news-block__img{
+		margin: 0 0 15px 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -296,7 +350,7 @@
 		font-size: 12px;
 	}
 	h1{
-		font-size: 19px;
+		font-size: 16px;
 	}
 	.b-logo{
 		width: 190px;
@@ -307,6 +361,127 @@
 	.b-insurance-slider .slick-dots{
 		bottom: -25px;
 	}
+	.b-program-left{
+		display: none;
+	}
+	.b-program-content{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.b-program-item ul{
+		display: block;
+		margin: 10px 0 0  0;
+	}
+	.b-program-item__row{
+		display: block;
+		min-height: inherit;
+		padding: 10px 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		text-align: center;
+		border-bottom: 1px solid #d4ddde;
+	}
+	.b-program-item span{
+		display: block;
+		font-weight: 700;
+		margin: 0 0 0 0;
+		font-size: 12px;		
+	}
+	.b-program-item ul li{
+		font-size: 12px;
+	}
+	.b-program-item p{
+		font-size: 12px;
+	}
+	.b-program-item img {
+	    margin: 10px auto 0;
+	}
+	.b-program-item p{
+		margin: 10px 0 0 0;
+	}
+	.b-program-item{
+		width: 290px;
+		margin: 0 auto 10px;
+		flex: inherit;
+	}
+	.b-form-title{
+		text-align: center;
+		width: 100%;
+	}
+	.b-advantages-content > .row > div{
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.b-advantages-item p{
+		padding: 0;
+	}
+	.b-main-container__left > div{
+		padding: 0;
+	}
+	.b-main-left__top{
+		margin: 0 0 15px 0;
+	}
+	.b-contacts-item__wrap{
+		display: block;
+	}
+	.b-contacts-item__col{
+		width: auto;
+	}
+	.b-contacts-content{
+		display: block;
+		margin: 0;
+	}
+	.b-contacts-item{
+		padding: 0;
+		width: auto;
+		margin: 0 0 15px 0;
+	}
+	.b-contacts-item:last-child{
+		margin: 0;
+	}
+	.b-finance-slider{
+		padding: 0 0 35px 0;
+	}
+	.b-finance-slider .slick-arrow{
+		width: 30px;
+		height: 30px;
+		top: 50%;
+		margin: -15px 0 0 0;
+		background-size: 5px;
+	}
+	.b-title span{
+		font-size: 19px;
+		line-height: 23px;
+	}
+	.b-title{
+		margin: 0 0 15px 0;
+	}
+	.b-title p{
+		font-size: 14px;
+	}
+	.b-finance-slider__item b{
+		font-size: 30px;
+		line-height: 32px;
+		margin: 0 0 15px 0;
+	}
+	.b-article .b-news-block__img{
+		width: auto;
+	}
+	.b-main-text h2{
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0 0 10px 0;
+	}
+	.b-main-text p{
+		font-size: 14px;
+	}
+	.b-products-content .b-insurance-block{
+		margin: 0 auto 10px;
+		width: 290px;
+		padding: 10px;
+	}
+
 }
 @media (max-width: 680px) {
 
