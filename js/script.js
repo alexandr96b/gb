@@ -9,7 +9,7 @@ $('.b-main-slider').slick({
   arrows: false,
   autoplay: true,
   autoplaySpeed: 2000, 
-  dots: false
+  dots: true
 });
 
 $('.b-insurance-slider').slick({

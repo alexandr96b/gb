@@ -1091,6 +1091,7 @@ h1{
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 22px;
+	display: block;
 }
 .b-program-item span{
 	display: none;
@@ -1116,9 +1117,9 @@ h1{
 	display: block;
 }
 .b-program-item__row{
-	min-height: 67px;
+	height: 67px;
 	display: flex;
-	justify-content: center;
+	text-align: center;
 	align-items: center;
 	border-bottom: 1px solid #e8f4f5;
 }
@@ -1132,6 +1133,7 @@ h1{
 	line-height: 16px;
 	margin: 0;
 	text-align: center;
+	width: 100%;
 }
 .b-program-item b{
 	color: #353535;
@@ -1140,6 +1142,7 @@ h1{
 	line-height: 16px;
 	display: block;
 	text-align: center;
+	width: 100%;
 }
 .b-program-item__big{
 	min-height: 107px;
@@ -1160,7 +1163,6 @@ h1{
 	height: 78px;
 	margin: 0 0 25px 0;
 	display: flex;
-	justify-content: center;
 	align-items: flex-end;
 }
 .b-advantages-item__img img{
@@ -1390,6 +1392,7 @@ h1{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;	
+	width: 100%;
 }
 .b-about-item__block{
 	display: flex;
