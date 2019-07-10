@@ -307,6 +307,16 @@
 	.b-main-page .b-main-form{
 		width: 100%;
 	}
+	.b-error-content__left span{
+		font-size: 190px;
+	}
+	.b-error-page{
+		padding: 30px 0;
+	}
+	.b-error-content__right{
+		padding: 50px 0 0 20px;
+		margin: 0 0 0 20px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -549,6 +559,22 @@
 	}
 	.b-faq-item__top:after{
 		right: 6px;
+	}
+	.b-error-content{
+		display: block;
+	}
+	.b-error-content__left{
+		text-align: center;
+	}
+	.b-error-content__right{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.b-error-content__left span{
+		font-size: 130px;
+		line-height: 135px;
 	}
 }
 @media (max-width: 680px) {
