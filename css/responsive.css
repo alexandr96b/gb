@@ -538,6 +538,18 @@
 		bottom: 0px;
 		right: 15px;
 	}
+	.b-faq-item__text__wrap{
+		padding: 15px 5px;
+	}
+	.b-faq-item__text p{
+		padding: 0 0 0 10px;
+	}
+	.b-faq-item__top{
+		padding: 15px 20px 15px 10px;
+	}
+	.b-faq-item__top:after{
+		right: 6px;
+	}
 }
 @media (max-width: 680px) {
 
