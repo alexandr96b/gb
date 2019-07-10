@@ -6,7 +6,10 @@ $('.b-main-slider').slick({
   slidesToScroll: 1,
   fade: true,
   adaptiveHeight: true,
-  arrows: false,
+  arrows: true,
+  nextArrow: '<button class="b-main-arrow b-main-next">›</button>',
+  prevArrow: '<button class="b-main-arrow b-main-prev">‹</button>',
+  appendArrows: '.b-main-slider__nav',  
   autoplay: true,
   autoplaySpeed: 2000, 
   dots: true
@@ -71,6 +74,30 @@ $('.b-finance-slider').slick({
 ]
 });
 
+
+
+function moveMenu(){
+  if ($(window).width() < 992) {
+         $(function(){ 
+
+          $('.b-nav').appendTo('.b-header-right');      
+           
+        })            
+  } else{
+         $(function(){ 
+
+
+          $('.b-nav').appendTo('.b-nav-wrap'); 
+           
+     })        
+  }
+}
+moveMenu();
+
+$(window).resize(function(){
+    moveMenu();
+});
+ 
 
 
 $(".btn-scroll").click(function(){

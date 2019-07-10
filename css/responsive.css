@@ -71,18 +71,37 @@
 	.b-products-content .b-insurance-block{
 		margin: 0 15px 0 0;
 	}
+	.b-logo{
+		display: block;
+	}
+	.b-header-contacts__item{
+		margin: 0 30px 0 0 ;
+	}
+	.b-logo span{
+		max-width: inherit;
+		display: block;
+		margin: 10px 0 0 0;
+		text-align: center;
+	}
 }	
 
 
 @media (max-width: 991px){
 	.b-header{
 		position: relative;
+		padding: 15px 0;
 	}
 	.b-header > .container > .row > div{
 		position: static;
 	}
+	.b-header-content{
+		margin: 0;
+	}
 	.b-header-right{
-		display: block;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		align-items: flex-start;
 		position: absolute;
 		right: 0;
 		top: -300px;
@@ -101,16 +120,27 @@
 		visibility: visible;
 		z-index: 100;
 	}
+	.btn-lk{
+		order: 1;
+	}
+	.b-header-contacts{
+		order: 2;
+		margin: 0 0 15px 0;
+	}
 	.b-nav{
 		margin: 0 0 20px 0;
-	}
+		padding: 0;
+		border: none;
+		order: 3;
+	}	
 	.b-nav ul{
 		display: block;
 	}
 	.b-nav ul li{
-		margin: 0 0 15px 0;
+		margin: 0;
 	}
 	.b-nav ul li a{
+		padding: 10px 0;
 		font-size: 18px;
 		line-height: 20px;
 	}
@@ -273,6 +303,9 @@
 	}
 	.b-insurance-block__img img{
 		margin: 0 auto 0;
+	}
+	.b-main-page .b-main-form{
+		width: 100%;
 	}
 }
 
@@ -487,7 +520,24 @@
 		width: 290px;
 		padding: 10px;
 	}
-
+	.b-main-page .b-main-form{
+		padding: 15px 0;
+		background: none;
+	}
+	.b-header-contacts{
+		display: block;
+	}
+	.b-header-contacts__item{
+		margin: 10px 0;
+	}
+	.b-main-page .b-main-left{
+		padding: 15px 0 0 0;
+	}
+	.b-main-slider__nav{
+		top: auto;
+		bottom: 0px;
+		right: 15px;
+	}
 }
 @media (max-width: 680px) {
 
